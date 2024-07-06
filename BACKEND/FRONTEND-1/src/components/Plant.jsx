@@ -7,7 +7,7 @@ function Plant() {
   useEffect(() => {
     const getPlant = async()=>{
       try{
-         const res = await axios.get("http://localhost:4001/plant");
+         const res = await axios.get("/plant");
          console.log(res.data);
          setPlant(res.data);
          

@@ -9,7 +9,7 @@ export default function Freeplant() {
   useEffect(() => {
     const getPlant = async()=>{
       try{
-         const res = await axios.get("http://localhost:4001/plant");
+         const res = await axios.get("/plant");
          const data = res.data.filter((data) => data.category === "Free");
          console.log(data);
          setPlant(data);
