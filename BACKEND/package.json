@@ -1,0 +1,29 @@
+{
+  "name": "arborally",
+  "version": "1.0.0",
+  "description": "mern project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "build": "npm install && npm install --prefix FRONTEND-1 && npm run build --prefix FRONTEND-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anushka9555/DEV21SPRINT.git"
+  },
+  "author": "ArborAllies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anushka9555/DEV21SPRINT/issues"
+  },
+  "homepage": "https://github.com/anushka9555/DEV21SPRINT#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
